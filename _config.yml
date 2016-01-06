@@ -5,6 +5,7 @@ gems: [jekyll-paginate]
 title: UXRants.
 email: UXmaniac@gmail.com
 description: A blog about...uh...UX maybe?
+baseurl: '/retry'
 url: "http://1.bp.blogspot.com/_oDS_8QmBU4w/TMcF6IxHXrI/AAAAAAAAB6k/JyCqgalRDyo/S220/ceiling3.jpg"
 twitter_username: ARGH!
 paginate: 4
