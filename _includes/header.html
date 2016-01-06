@@ -1,0 +1,40 @@
+
+<!-- Capture and store a URL -->
+   <!-- location is the variable -->
+   <!-- {{ page.url }} is the output handle.  The capture tag is storing the page URL in this location -->
+  <!-- However, there is / on either side of the url. We need to get rid of that... -->
+      <!-- ... jso the split: '/' does that -->
+
+
+{% capture location %}{{ page.url | split: '/' }}{% endcapture %}
+
+
+
+<header class="main-header" role="banner">
+  <div class="grid">
+    <div class="grid__col--12">
+      <a class="site-logo" href="/" title="UXRant.me – Home">
+        UXRants
+      </a>
+      <nav class="navbar" role="navigation">
+        <ul class="nav">
+        {% for page in site.pages %}
+
+          <!-- Compare the page title to the URL -->
+          {% assign current = page.title | downcase %}
+
+
+          {% if page.title %}
+          <!--  <li class="nav__item">
+          The li class gets replace with liquid handle/if...else       -->
+            <li {% if location == current %} class="nav__item--current" {% else %} class="nav__item" {% endif %}>
+            <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+          </li>
+          {% endif %}
+
+        {% endfor %}
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>

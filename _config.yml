@@ -1,0 +1,45 @@
+# Gems
+gems: [jekyll-paginate]
+
+# Site settings
+title: UXRants.
+email: UXmaniac@gmail.com
+description: A blog about...uh...UX maybe?
+url: "http://1.bp.blogspot.com/_oDS_8QmBU4w/TMcF6IxHXrI/AAAAAAAAB6k/JyCqgalRDyo/S220/ceiling3.jpg"
+twitter_username: ARGH!
+paginate: 4
+
+
+# Build settings
+markdown: kramdown
+permalink: /:title
+
+#Default settings
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      author: Allen Liff
+      layout: "post"
+      category: rants
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "pages" # previously `post` in Jekyll 2.2.
+    values:
+      author: Allen Liff
+      layout: "page"
+      category: raaants
+
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "drafts" # previously `post` in Jekyll 2.2.
+    values:
+      author: Allen Liff
+      layout: "post"
+      category: rants
+
+
