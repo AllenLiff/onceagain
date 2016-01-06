@@ -1,7 +1,8 @@
 ---
-title:  "CSS Summit"
+title:  "Trash!"
 ---
 
-[CSS Summit](http://environmentsforhumans.com/2015/css-summit/) brings together some of the web's most notable experts for an all-new, three-day online conference. This year's event includes a live CSS and Sass conference, as well as an SVG, Sass, and advanced CSS track.
+![](http://www.createplenty.org/wp-content/uploads/2011/11/donate_button.png)
 
-I'm also speaking about Sass on day two!
+
+[Donate you scallywag!](http://www.createplenty.org/donate)

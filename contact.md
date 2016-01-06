@@ -11,3 +11,5 @@ Don't bother to contact me. As the lady says...
 [Do NOT send emails to: ](mailto:{{ site.email }}).
 
    (NOTE: site.email references email from config.yml)
+
+   ![You just write, we do the rest](https://www.swipe.to/perm-static/intro/markdown-lesson.png)
